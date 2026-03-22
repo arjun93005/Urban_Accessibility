@@ -1,8 +1,6 @@
-\# Contributing Guidelines
+# Contributing Guidelines
 
-
-
-\## Branches
+## Branches
 
 main - stable  
 
@@ -13,36 +11,21 @@ feature/\* - new features
 bugfix/\* - bug fixes  
 
 
+## Workflow
 
-\## Workflow
+1. Create branch from dev
+2. Make changes
+3. Commit with clear message
+4. Push branch
+5. Open Pull Request to dev
 
-1\. Create branch from dev
-
-2\. Make changes
-
-3\. Commit with clear message
-
-4\. Push branch
-
-5\. Open Pull Request to dev
-
-
-
-\## Commit Messages
+## Commit Messages
 
 Use present tense and be descriptive.
-
 Example:
-
 Add accessibility map view
 
-
-
-\## Code Style
+## Code Style
 
 Follow agreed formatting
-
 Run tests before pushing
-
-
-
