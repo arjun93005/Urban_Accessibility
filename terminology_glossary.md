@@ -219,4 +219,3 @@ The trained model parameters saved to a file so you can reuse the model later wi
 ### **Comparison table (`results_table_v0.csv`)**
 A table that compares YOLO candidates side-by-side (accuracy + speed + size).  
 This is what you use to justify “we chose model X”.
----
