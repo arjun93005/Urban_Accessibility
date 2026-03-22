@@ -1,0 +1,51 @@
+project-root
+├── README.md
+├── docs
+│   ├── data_source_notes.md
+│   └── labeling_guide.md
+├── config
+│   ├── pipeline.yaml
+│   └── areas
+│       └── <area_id>.json
+├── data
+│   ├── raw
+│   │   └── <area_id>
+│   │       ├── images
+│   │       │   └── <source>_<image_id>.jpg
+│   │       └── manifest.csv
+│   └── processed
+│       ├── images
+│       │   └── <area_id>
+│       │       └── <source>_<image_id>.jpg
+│       ├── metadata.csv
+│       ├── pilot_subset.csv
+│       └── splits
+│           ├── train.txt
+│           ├── val.txt
+│           └── test.txt
+├── labels
+│   └── pilot
+│       ├── images
+│       ├── yolo
+│       │   └── <source>_<image_id>.txt
+│       ├── class_map.json
+├── experiments
+│   ├── protocol.md
+│   ├── results.csv
+│   └── runs
+│       ├── exp001
+│       │   ├── config.yaml
+│       │   ├── metrics.json
+│       │   └── weights
+│       └── exp002
+│           ├── config.yaml
+│           ├── metrics.json
+│           └── weights
+└── scripts
+    ├── collect_images.py
+    ├── preprocess.py
+    ├── make_splits.py
+    ├── make_pilot_subset.py
+    ├── validate_labels.py
+    ├── train.py
+    └── evaluate.py
